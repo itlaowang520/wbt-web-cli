@@ -13,6 +13,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "output"
   ],
@@ -26,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/itlaowang520/wbt-web-cli/issues"
   },
-  "gitHead": "2fd06938244c64093fbcba827543bc9c428fee6f"
+  "gitHead": "2fce97a482fc423414a38a5857ff6d95b609047a"
 }
