@@ -1,6 +1,6 @@
 {
   "name": "@wbt-web-cli/eslint-tools",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "eslint-tools",
   "keywords": [
     "eslint"
@@ -34,7 +34,7 @@
     "@babel/runtime": "^7.4.5",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
     "@typescript-eslint/parser": "^2.3.1",
-    "@wbt-web-cli/utils": "^0.2.0",
+    "@wbt-web-cli/utils": "^0.3.0",
     "babel-eslint": "^10.1.0",
     "core-js": "2.6.5",
     "eslint": "^7.3.1",

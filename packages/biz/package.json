@@ -1,6 +1,6 @@
 {
   "name": "@wbt-web-cli/biz",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "cli",
   "keywords": [
     "cli"
@@ -31,11 +31,11 @@
     "url": "https://github.com/itlaowang520/wbt-web-cli/issues"
   },
   "bin": {
-    "biz": "bin/index.js"
+    "biz": "bin/output/index.js"
   },
   "gitHead": "2fce97a482fc423414a38a5857ff6d95b609047a",
   "dependencies": {
-    "@wbt-web-cli/utils": "^0.2.0",
+    "@wbt-web-cli/utils": "^0.3.0",
     "chalk": "^4.0.0",
     "commander": "5.0.0"
   },

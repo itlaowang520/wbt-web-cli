@@ -1,6 +1,6 @@
 {
   "name": "@wbt-web-cli/utils",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "utils",
   "keywords": [
     "utils"
@@ -8,7 +8,7 @@
   "author": "wangmeng11 <wangmeng11@huohua.cn>",
   "homepage": "https://github.com/itlaowang520/wbt-web-cli#readme",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "output/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
