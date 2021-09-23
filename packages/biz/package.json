@@ -1,6 +1,6 @@
 {
-  "name": "biz",
-  "version": "0.0.2",
+  "name": "@wbt-web-cli/biz",
+  "version": "0.1.0",
   "description": "cli",
   "keywords": [
     "cli"

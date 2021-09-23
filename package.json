@@ -1,6 +1,6 @@
 {
   "name": "wbt-web-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "web-web-cli",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "publish-beta": "lerna publish --no-git-tag-version --dist-tag beta",
     "notify": "ks version --notify"
 },
-  "author": "BizFE",
+  "author": "<BizFE>",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^4.0.0",
