@@ -1,9 +1,45 @@
 {
-  "name": "root",
+  "name": "wbt-web-cli",
+  "version": "0.0.1",
+  "description": "web-web-cli",
   "private": true,
+  "scripts": {
+    "bootstrap": "yarn install",
+    "start": "lerna run start",
+    "build": "lerna run build --sort --stream",
+    "update-version": "lerna version --conventional-commits --no-push --no-changelog --no-git-tag-version",
+    "publish-to-npm": "lerna publish from-package",
+    "publish-beta": "lerna publish --no-git-tag-version --dist-tag beta",
+    "notify": "ks version --notify"
+},
+  "author": "BizFE",
+  "license": "ISC",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "@types/node": "^14.0.13",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^2.3.1",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
   },
+  "dependencies": {},
   "workspaces": [
     "packages/*"
 ]
