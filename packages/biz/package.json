@@ -8,7 +8,10 @@
   "author": "wangmeng11 <wangmeng11@huohua.cn>",
   "homepage": "https://github.com/itlaowang520/wbt-web-cli#readme",
   "license": "ISC",
-  "main": "bin/index.js",
+  "main": "output/src/index.js",
+  "bin": {
+    "biz": "output/bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -29,9 +32,6 @@
   },
   "bugs": {
     "url": "https://github.com/itlaowang520/wbt-web-cli/issues"
-  },
-  "bin": {
-    "biz": "bin/output/index.js"
   },
   "gitHead": "2fce97a482fc423414a38a5857ff6d95b609047a",
   "dependencies": {
