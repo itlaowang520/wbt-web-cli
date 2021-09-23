@@ -1,6 +1,6 @@
 {
   "name": "@wbt-web-cli/biz",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "cli",
   "keywords": [
     "cli"
@@ -35,7 +35,7 @@
   },
   "gitHead": "2fce97a482fc423414a38a5857ff6d95b609047a",
   "dependencies": {
-    "@wbt-web-cli/utils": "^0.1.0",
+    "@wbt-web-cli/utils": "^0.2.0",
     "chalk": "^4.0.0",
     "commander": "5.0.0"
   },
