@@ -6,9 +6,9 @@ import path from 'path';
  * @param name 文件名
  */
 export default function Debug(name: string) {
-    let debugLabel = name;
-    if (name.includes('.js')) {
-        debugLabel = path.basename(name, '.js');
-    }
-    return debug(`biz: ${debugLabel} ----> `);
+  let debugLabel = name;
+  if (name.includes('.js')) {
+    debugLabel = path.basename(name, '.js');
+  }
+  return debug(`biz: ${debugLabel} ----> `);
 }

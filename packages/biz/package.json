@@ -33,8 +33,13 @@
   "bin": {
     "biz": "bin/index.js"
   },
+  "gitHead": "2fce97a482fc423414a38a5857ff6d95b609047a",
   "dependencies": {
-    "chalk": "^4.1.2"
+    "@wbt-web-cli/utils": "^0.1.0",
+    "chalk": "^4.0.0",
+    "commander": "5.0.0"
   },
-  "gitHead": "2fce97a482fc423414a38a5857ff6d95b609047a"
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0"
+  }
 }

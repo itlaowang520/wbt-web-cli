@@ -7,9 +7,9 @@ import Debug from './debugger';
 import { delay } from './delay';
 
 export {
-    inquirer,
-    fsExtra,
-    log,
-    Debug,
-    delay,
+  inquirer,
+  fsExtra,
+  log,
+  Debug,
+  delay,
 };

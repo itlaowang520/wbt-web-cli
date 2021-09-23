@@ -48,7 +48,7 @@ module.exports = {
         'padded-blocks': ['error', { blocks: 'never' }], // 要求或禁止块内填充,要求块语句和类的开始或末尾有空行
         'one-var': ['error', { var: 'always', let: 'consecutive', const: 'never' }], // 强制函数中的变量在一起声明或分开声明  let a,b;
         'no-return-assign': 2, // 禁止在返回语句中赋值,除非赋值语句是在圆括号中  return (foo = bar + 2);
-        indent: ['error', 4, {
+        indent: ['error', 2, {
             VariableDeclarator: { var: 1, let: 1 },
             SwitchCase: 1,
             ignoredNodes: [
