@@ -1,6 +1,6 @@
 {
   "name": "@wbt-web-cli/utils",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "utils",
   "keywords": [
     "utils"
@@ -35,12 +35,14 @@
     "chalk": "^4.0.0",
     "core-js": "2.6.5",
     "debug": "^4.1.1",
+    "figlet": "^1.5.2",
     "fs-extra": "^9.0.0",
     "inquirer": "^7.1.0"
   },
   "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/debug": "^4.1.4",
+    "@types/figlet": "^1.5.4",
     "@types/fs-extra": "^7.0.0",
     "@types/inquirer": "^6.5.0"
   },

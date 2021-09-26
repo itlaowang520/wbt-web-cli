@@ -9,4 +9,10 @@
         "./bin",
         "../../typings"
     ],
+    "baseUrl": ".",
+    "paths": {
+        "Src/*": [
+            "./src/*"
+        ]
+    }
 }

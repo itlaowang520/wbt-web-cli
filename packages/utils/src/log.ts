@@ -1,4 +1,5 @@
 import chalk from 'chalk';
+import figlet from 'figlet';
 
 /**
  * 通知信息
@@ -34,4 +35,14 @@ export function success(message: string) {
 
 export function warning(message: string) {
   console.log(warningText(message));
+}
+
+/**
+ * 装逼专用文字
+ */
+export function createSplash(str: string) {
+  console.log(chalk.white(figlet.textSync(str, {
+    horizontalLayout: 'default',
+    verticalLayout: 'default',
+  })));
 }

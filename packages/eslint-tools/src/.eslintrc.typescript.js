@@ -93,6 +93,7 @@ module.exports = {
     'no-plusplus': [2, {
       allowForLoopAfterthoughts: true
     }],
-    'no-console': 0
+    'no-console': 0,
+    'prettier/prettier': 'off'
   }
 };

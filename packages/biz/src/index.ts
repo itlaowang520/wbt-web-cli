@@ -1,5 +1,5 @@
-function test() {
-  console.log('test11');
-}
+import { runInit } from './commands/init';
 
-export { test };
+export {
+  runInit,
+};
