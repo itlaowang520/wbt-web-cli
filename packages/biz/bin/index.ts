@@ -8,7 +8,7 @@ const program = new Command();
 const { infoText, errorText } = log;
 
 program
-  .description(infoText('机构前端命令行工具'))
+  .description(infoText('命令行工具'))
   .version(ownPkgJSON.version, '-v, --version')
   .usage('<command> [command-options]');
 
