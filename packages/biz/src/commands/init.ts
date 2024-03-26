@@ -77,6 +77,6 @@ export const runInit = async (options: {
   console.log(infoText('\n正在安装依赖\n'));
   installDependencies(projectPath);
   console.log(successText('\n生成完成😊\n'));
-  console.log(createSplash('BIZ CLI'));
+  console.log(createSplash('wbt CLI'));
 };
 

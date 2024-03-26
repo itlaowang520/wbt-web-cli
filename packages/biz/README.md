@@ -1,11 +1,11 @@
-# `biz`
+# `wbt`
 
 > TODO: description
 
 ## Usage
 
 ```
-const biz = require('biz');
+const wbt = require('wbt');
 
 // TODO: DEMONSTRATE API
 ```

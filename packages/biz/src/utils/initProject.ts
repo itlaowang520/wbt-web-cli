@@ -15,16 +15,16 @@ export function initProjectFolder(projectName: string, projectType: string, cwd:
 
   switch (projectType) {
     case ProjectType.PC:
-      projectRepo = 'https://github.com/itlaowang520/biz-common-ui-doc.git';
+      projectRepo = 'https://github.com/itlaowang520/wbt-common-ui-doc.git';
       break;
     case ProjectType.MWEB:
-      projectRepo = 'https://github.com/itlaowang520/biz-common-ui.git';
+      projectRepo = 'https://github.com/itlaowang520/wbt-common-ui.git';
       break;
     case ProjectType.LIBRARY:
-      projectRepo = 'https://github.com/itlaowang520/biz-common-ui.git';
+      projectRepo = 'https://github.com/itlaowang520/wbt-common-ui.git';
       break;
     case ProjectType.UTILS:
-      projectRepo = 'https://github.com/itlaowang520/biz-common-ui.git';
+      projectRepo = 'https://github.com/itlaowang520/wbt-common-ui.git';
       break;
     default:
       break;

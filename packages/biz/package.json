@@ -1,16 +1,16 @@
 {
-  "name": "@wbt-web-cli/biz",
+  "name": "@wbt-web-cli/wbt",
   "version": "0.3.1",
   "description": "cli",
   "keywords": [
     "cli"
   ],
-  "author": "wangmeng11 <wangmeng11@huohua.cn>",
+  "author": "wangmeng11 <itlaowang588@163.com>",
   "homepage": "https://github.com/itlaowang520/wbt-web-cli#readme",
   "license": "ISC",
   "main": "output/src/index.js",
   "bin": {
-    "biz": "output/bin/index.js"
+    "wbt": "output/bin/index.js"
   },
   "directories": {
     "lib": "lib",

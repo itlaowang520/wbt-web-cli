@@ -12,7 +12,7 @@
     "publish-beta": "lerna publish --no-git-tag-version --dist-tag beta",
     "notify": "ks version --notify"
 },
-  "author": "<BizFE>",
+  "author": "<WANGMENG>",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^4.0.0",

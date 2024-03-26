@@ -10,5 +10,5 @@ export default function Debug(name: string) {
   if (name.includes('.js')) {
     debugLabel = path.basename(name, '.js');
   }
-  return debug(`biz: ${debugLabel} ----> `);
+  return debug(`wbt: ${debugLabel} ----> `);
 }
